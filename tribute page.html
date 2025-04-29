@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mukesh Ambani Tribute</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #0d0d0d;
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    header {
+      background: linear-gradient(to right, #1a1a1a, #262626);
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 5px 10px rgba(255, 215, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    header p {
+      font-size: 18px;
+      color: #fff;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 30px 20px;
+    }
+
+    .profile-img {
+      display: block;
+      margin: 0 auto 30px;
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      border: 4px solid #f1c40f;
+      object-fit: cover;
+      box-shadow: 0 0 20px rgba(241, 196, 15, 0.5);
+      transition: transform 0.4s ease;
+    }
+
+    .profile-img:hover {
+      transform: scale(1.05);
+    }
+
+    section {
+      background-color: #1a1a1a;
+      border-radius: 15px;
+      padding: 25px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 10px rgba(255, 215, 0, 0.05);
+      animation: slideIn 1s ease-out;
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(50px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    h2 {
+      text-align: center;
+      color: #fff;
+      margin-bottom: 15px;
+    }
+
+    p, ul {
+      font-size: 16px;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    ul {
+      padding-left: 25px;
+    }
+
+    .quote {
+      font-style: italic;
+      text-align: center;
+      font-size: 18px;
+      color: #fff;
+      padding: 10px 0;
+    }
+
+    .button-link {
+      display: block;
+      width: fit-content;
+      margin: 20px auto 0;
+      padding: 12px 28px;
+      background: linear-gradient(to right, #ffcc00, #f1c40f);
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 30px;
+      transition: all 0.3s ease;
+    }
+
+    .button-link:hover {
+      background: #000;
+      color: #ffd700;
+      border: 2px solid #ffd700;
+    }
+
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 15px;
+      color: #fff;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+
+    .family-section, .background-section {
+      background-color: #1a1a1a;
+      border-radius: 15px;
+      padding: 25px;
+      margin-top: 30px;
+      box-shadow: 0 0 10px rgba(255, 215, 0, 0.05);
+    }
+
+    .family-section h3, .background-section h3 {
+      color: #fff;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    .family-section p, .background-section p {
+      font-size: 16px;
+      color: #fff;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mukesh Ambani</h1>
+    <p>India's Most Influential Business Tycoon</p>
+  </header>
+
+  <main>
+    <img class="profile-img" src="image copy.png" alt="Mukesh Ambani" />
+
+    <section>
+      <h2>About Mukesh Ambani</h2>
+      <p>Mukesh Ambani is the Chairman and Managing Director of Reliance Industries Ltd. 
+      He has transformed India's business landscape through ventures in petrochemicals, telecommunications, retail, and more.
+      Under his leadership, Reliance Jio changed how India connects and consumes data.</p>
+    </section>
+
+    <section>
+      <h2>Admirable Qualities</h2>
+      <ul>
+        <li>Strategic and visionary leadership</li>
+        <li>Innovator in telecom and retail</li>
+        <li>Persistent and bold decision-maker</li>
+        <li>Focus on national progress and digital India</li>
+        <li>Inspiration to young entrepreneurs</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Achievements Timeline</h2>
+      <ul>
+        <li><strong>2002:</strong> Took charge of Reliance Industries after Dhirubhai Ambani</li>
+        <li><strong>2016:</strong> Launched Jio, revolutionizing telecom</li>
+        <li><strong>2020:</strong> Made Reliance net debt-free</li>
+        <li><strong>2023:</strong> Reliance became India’s largest company by market cap</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Famous Quote</h2>
+      <p class="quote">"I don’t think ambition should not be in the dictionary of entrepreneurs." - Mukesh Ambani</p>
+    </section>
+
+    <div class="background-section">
+      <h3>Mukesh Ambani's Background Story</h3>
+      <p>Mukesh Dhirubhai Ambani was born on April 19, 1957, in Aden, Yemen. He grew up in a humble setting before moving to Mumbai with his family. His father, Dhirubhai Ambani, founded Reliance Industries, which later grew to become one of India's largest conglomerates. Mukesh Ambani joined the family business in 1981, playing a key role in its expansion and diversification into sectors such as telecommunications, petrochemicals, and retail.</p>
+      <p>Under his leadership, Reliance Industries became a global powerhouse. In 2016, he launched Reliance Jio, which revolutionized India's telecom industry by offering affordable internet and data services. This move changed the way millions of Indians consume data and connect to the internet, making him one of the most influential business leaders in the country.</p>
+      <p>Today, Mukesh Ambani is one of the wealthiest individuals in the world, with a keen interest in driving digital transformation and supporting national growth. His leadership, vision, and commitment to innovation continue to inspire millions.</p>
+    </div>
+
+    <div class="family-section">
+      <h3>Family of Mukesh Ambani</h3>
+      <p>Mukesh Ambani comes from a renowned business family. He is married to Nita Ambani, and they have three children: Akash, Isha, and Anant. Nita Ambani is also a prominent figure, being the Chairperson of Reliance Foundation and involved in numerous philanthropic activities.</p>
+    </div>
+
+    <a class="button-link" href="https://www.ril.com/" target="_blank">Explore Reliance Industries</a>
+  </main>
+
+  <footer>
+    Made with admiration by Shailee ✨
+  </footer>
+
+</body>
+</html>
