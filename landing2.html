@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Predicting Mental Health - ML Research</title>
+ 
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.7;
+      background: url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') center/cover no-repeat fixed;
+      color: #333;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    header {
+      background: linear-gradient(90deg, #f857a6, #ff5858);
+      color: white;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 2.5em;
+    }
+
+    nav {
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://www.simplilearn.com/ice9/free_resources_article_thumb/Machine_Learning_vs_Deep_Learning.jpg') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+      position: relative;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .hero .overlay {
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      background: linear-gradient(90deg, #ffecd2 0%, #fcb69f 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      font-size: 1.3em;
+      margin-bottom: 30px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .btn {
+      background: #ff5858;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #e04848;
+    }
+
+    .features {
+      background: white;
+      padding: 50px 0;
+      text-align: center;
+    }
+
+    .feature-box {
+      width: 30%;
+      display: inline-block;
+      margin: 15px;
+      vertical-align: top;
+    }
+
+    .feature-box h3 {
+      color: #f857a6;
+      margin-bottom: 10px;
+    }
+
+    .feature-box p {
+      font-size: 0.95em;
+    }
+
+    .about {
+      background: #f4f4f4;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .about h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .about p {
+      max-width: 800px;
+      margin: 0 auto 30px auto;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    @media (max-width: 768px) {
+      .feature-box {
+        width: 90%;
+        margin-bottom: 20px;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+
+      .hero h1 {
+        font-size: 2em;
+      }
+
+      .hero p {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Machine Learning Research</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#features">Highlights</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="overlay">
+      <h1 data-aos="fade-down">Predicting Anxiety and Depression</h1>
+      <p data-aos="fade-up">Exploring how environmental factors influence mental health using machine learning algorithms.</p>
+      <a href="#about" class="btn" data-aos="zoom-in">Explore Research</a>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container">
+      <div class="feature-box" data-aos="fade-up">
+        <h3>Environmental Insights</h3>
+        <p>We analyze pollution, noise, and urban planning to understand their impact on mental wellness.</p>
+      </div>
+      <div class="feature-box" data-aos="fade-up" data-aos-delay="100">
+        <h3>Machine Learning Models</h3>
+        <p>We use classification, regression, and deep learning to assess and predict mental health risks.</p>
+      </div>
+      <div class="feature-box" data-aos="fade-up" data-aos-delay="200">
+        <h3>Real-World Applications</h3>
+        <p>Helping communities and organizations make informed decisions based on ML-powered predictions.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container" data-aos="fade-in">
+      <h2>About the Project</h2>
+      <p>
+        Our project utilizes datasets involving environmental variables such as population density, green space, and pollution levels to estimate mental health conditions like anxiety and depression. By training predictive models, we aim to uncover patterns and provide actionable insights for healthier cities and lifestyles.
+      </p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Predicting Mental Health | Research by Shailee Naik</p>
+    </div>
+  </footer>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000 });
+  </script>
+</body>
+</html>
