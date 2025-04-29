@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shailee Naik - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap" rel="stylesheet">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Montserrat', sans-serif;
+        background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
+        background-size: cover;
+        color: #f5f5f5;
+        line-height: 1.6;
+        animation: fadeIn 1.5s ease-in;
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(15, 15, 15, 0.8);
+        z-index: -1;
+      }
+      header {
+        background: linear-gradient(120deg, #222, #333);
+        padding: 3rem 2rem;
+        text-align: center;
+        position: relative;
+        border-bottom: 4px solid #00ffd5;
+      }
+      header img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        border: 4px solid #00ffd5;
+        object-fit: cover;
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+      }
+      header h1 {
+        font-size: 3rem;
+        font-weight: 800;
+        color: #00ffd5;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+      }
+      header p {
+        font-size: 1.2rem;
+        color: #dddddd;
+        text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+      }
+      section {
+        padding: 3rem 2rem;
+        max-width: 1000px;
+        margin: auto;
+        animation: fadeIn 1.5s ease-in;
+      }
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        color: #00ffd5;
+        border-bottom: 2px solid #444;
+        padding-bottom: 0.5rem;
+      }
+      ul {
+        list-style: none;
+        padding-left: 0;
+      }
+      ul li {
+        margin-bottom: 0.8rem;
+      }
+      .highlight {
+        color: #00ffd5;
+      }
+      .resume {
+        text-align: center;
+        margin-top: 2rem;
+      }
+      .resume a {
+        display: inline-block;
+        background-color: #00ffd5;
+        color: #0f0f0f;
+        padding: 0.7rem 1.5rem;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s;
+      }
+      .resume a:hover {
+        background-color: #00bfa5;
+      }
+      footer {
+        background-color: #1f1f1f;
+        text-align: center;
+        padding: 2rem;
+        font-size: 0.9rem;
+        color: #888;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Shailee Naik</h1>
+      <p>Web Developer | MCA Student | Tech Enthusiast</p>
+      <img src="profile.jpg" alt="Shailee Naik" width="250">
+    </header>
+
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I'm currently pursuing my <span class="highlight">Master of Computer Applications (MCA)</span> from Rourkela Institute of Management Studies (2nd Semester). I have a Bachelor's degree in Computer Applications (BCA) from the same institute. I have a deep interest in development and research, currently working on a project to <span class="highlight">predict anxiety and depression from environmental causes using Machine Learning</span>.
+      </p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> Python, Java, C</li>
+        <li><strong>Web:</strong> HTML, CSS, JavaScript</li>
+        <li><strong>Tools:</strong> VS Code, GitHub</li>
+        <li><strong>Database:</strong> MySQL</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Bus Management System</strong> – Built during BCA for efficient management of bus services.</li>
+        <li><strong>Mental Health Prediction</strong> – Ongoing research on using environmental data to predict anxiety and depression through ML models.</li>
+        <li><strong>Landing Page Design</strong> – Developed a modern and responsive landing page for a web-based product.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li><strong>MCA</strong> (2024–2026) – Rourkela Institute of Management Studies</li>
+        <li><strong>BCA</strong> (2021–2024) – Rourkela Institute of Management Studies</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Certifications & Courses</h2>
+      <ul>
+        <li><strong>PGDCA</strong> – Post Graduate Diploma in Computer Applications</li>
+        <li><strong>Foundation of AI</strong> – Fundamental course on Artificial Intelligence</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <ul>
+        <li>Email: shailee200@gmail.com</li>
+        <li>Phone: +91-9348253002</li>
+        <li>Location: sundargarh, Odisha</li>
+      </ul>
+    </section>
+
+    <section class="resume">
+      <a href="Shailee_Naik_Resume.pdf" download>Download My Resume</a>
+    </section>
+
+    <footer>
+      <p>© 2025 Shailee Naik. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
